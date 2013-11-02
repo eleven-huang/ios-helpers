@@ -57,6 +57,7 @@
 		A548D478182554490074D472 /* UIAlertView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Extend.m"; sourceTree = "<group>"; };
 		A548D479182554490074D472 /* UIViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewHelper.h; sourceTree = "<group>"; };
 		A548D47A182554490074D472 /* UIViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewHelper.m; sourceTree = "<group>"; };
+		A548D48118255B6D0074D472 /* IOSHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSHelpers.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +161,7 @@
 				A548D480182554710074D472 /* UIView */,
 				A548D47F182554630074D472 /* UIAlertView */,
 				A548D47E182554500074D472 /* NSTimer */,
+				A548D48118255B6D0074D472 /* IOSHelpers.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
