@@ -11,16 +11,17 @@
 		A548D437182549DD0074D472 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548D436182549DD0074D472 /* CoreGraphics.framework */; };
 		A548D439182549DD0074D472 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548D438182549DD0074D472 /* UIKit.framework */; };
 		A548D43F182549DD0074D472 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A548D43D182549DD0074D472 /* InfoPlist.strings */; };
-		A548D441182549DD0074D472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A548D440182549DD0074D472 /* main.m */; };
 		A548D447182549DD0074D472 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A548D446182549DD0074D472 /* Images.xcassets */; };
 		A548D44E182549DE0074D472 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548D44D182549DE0074D472 /* XCTest.framework */; };
 		A548D44F182549DE0074D472 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548D434182549DD0074D472 /* Foundation.framework */; };
 		A548D450182549DE0074D472 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548D438182549DD0074D472 /* UIKit.framework */; };
 		A548D458182549DE0074D472 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A548D456182549DE0074D472 /* InfoPlist.strings */; };
 		A548D45A182549DE0074D472 /* ios_helpersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A548D459182549DE0074D472 /* ios_helpersTests.m */; };
-		A548D46618254A530074D472 /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = A548D46518254A530074D472 /* NSTimer+Blocks.m */; };
-		A548D46A18254ACE0074D472 /* UIViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A548D46918254ACE0074D472 /* UIViewHelper.m */; };
-		A548D46D18254D9C0074D472 /* UIAlertView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = A548D46C18254D9C0074D472 /* UIAlertView+Extend.m */; };
+		A548D470182553340074D472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A548D46F182553340074D472 /* main.m */; };
+		A548D4731825533F0074D472 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A548D4721825533F0074D472 /* AppDelegate.m */; };
+		A548D47B182554490074D472 /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = A548D476182554490074D472 /* NSTimer+Blocks.m */; };
+		A548D47C182554490074D472 /* UIAlertView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = A548D478182554490074D472 /* UIAlertView+Extend.m */; };
+		A548D47D182554490074D472 /* UIViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A548D47A182554490074D472 /* UIViewHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,6 @@
 		A548D438182549DD0074D472 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A548D43C182549DD0074D472 /* ios-helpers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios-helpers-Info.plist"; sourceTree = "<group>"; };
 		A548D43E182549DD0074D472 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A548D440182549DD0074D472 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A548D442182549DD0074D472 /* ios-helpers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-helpers-Prefix.pch"; sourceTree = "<group>"; };
 		A548D446182549DD0074D472 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A548D44C182549DE0074D472 /* ios-helpersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-helpersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,12 +48,15 @@
 		A548D455182549DE0074D472 /* ios-helpersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios-helpersTests-Info.plist"; sourceTree = "<group>"; };
 		A548D457182549DE0074D472 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A548D459182549DE0074D472 /* ios_helpersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_helpersTests.m; sourceTree = "<group>"; };
-		A548D46418254A530074D472 /* NSTimer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Blocks.h"; sourceTree = "<group>"; };
-		A548D46518254A530074D472 /* NSTimer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blocks.m"; sourceTree = "<group>"; };
-		A548D46818254ACE0074D472 /* UIViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewHelper.h; sourceTree = "<group>"; };
-		A548D46918254ACE0074D472 /* UIViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewHelper.m; sourceTree = "<group>"; };
-		A548D46B18254D9C0074D472 /* UIAlertView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Extend.h"; sourceTree = "<group>"; };
-		A548D46C18254D9C0074D472 /* UIAlertView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Extend.m"; sourceTree = "<group>"; };
+		A548D46F182553340074D472 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A548D4711825533F0074D472 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A548D4721825533F0074D472 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A548D475182554490074D472 /* NSTimer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Blocks.h"; sourceTree = "<group>"; };
+		A548D476182554490074D472 /* NSTimer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blocks.m"; sourceTree = "<group>"; };
+		A548D477182554490074D472 /* UIAlertView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Extend.h"; sourceTree = "<group>"; };
+		A548D478182554490074D472 /* UIAlertView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Extend.m"; sourceTree = "<group>"; };
+		A548D479182554490074D472 /* UIViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewHelper.h; sourceTree = "<group>"; };
+		A548D47A182554490074D472 /* UIViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +116,9 @@
 		A548D43A182549DD0074D472 /* ios-helpers */ = {
 			isa = PBXGroup;
 			children = (
-				A548D46E18254E0C0074D472 /* UIAlertView */,
-				A548D46718254AB20074D472 /* UIView */,
-				A548D46318254A040074D472 /* NSTimer */,
+				A548D474182554490074D472 /* Classes */,
+				A548D4711825533F0074D472 /* AppDelegate.h */,
+				A548D4721825533F0074D472 /* AppDelegate.m */,
 				A548D446182549DD0074D472 /* Images.xcassets */,
 				A548D43B182549DD0074D472 /* Supporting Files */,
 			);
@@ -125,9 +128,9 @@
 		A548D43B182549DD0074D472 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A548D46F182553340074D472 /* main.m */,
 				A548D43C182549DD0074D472 /* ios-helpers-Info.plist */,
 				A548D43D182549DD0074D472 /* InfoPlist.strings */,
-				A548D440182549DD0074D472 /* main.m */,
 				A548D442182549DD0074D472 /* ios-helpers-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -151,31 +154,41 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A548D46318254A040074D472 /* NSTimer */ = {
+		A548D474182554490074D472 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A548D46418254A530074D472 /* NSTimer+Blocks.h */,
-				A548D46518254A530074D472 /* NSTimer+Blocks.m */,
+				A548D480182554710074D472 /* UIView */,
+				A548D47F182554630074D472 /* UIAlertView */,
+				A548D47E182554500074D472 /* NSTimer */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A548D47E182554500074D472 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				A548D475182554490074D472 /* NSTimer+Blocks.h */,
+				A548D476182554490074D472 /* NSTimer+Blocks.m */,
 			);
 			name = NSTimer;
 			sourceTree = "<group>";
 		};
-		A548D46718254AB20074D472 /* UIView */ = {
+		A548D47F182554630074D472 /* UIAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				A548D46818254ACE0074D472 /* UIViewHelper.h */,
-				A548D46918254ACE0074D472 /* UIViewHelper.m */,
-			);
-			name = UIView;
-			sourceTree = "<group>";
-		};
-		A548D46E18254E0C0074D472 /* UIAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				A548D46B18254D9C0074D472 /* UIAlertView+Extend.h */,
-				A548D46C18254D9C0074D472 /* UIAlertView+Extend.m */,
+				A548D477182554490074D472 /* UIAlertView+Extend.h */,
+				A548D478182554490074D472 /* UIAlertView+Extend.m */,
 			);
 			name = UIAlertView;
+			sourceTree = "<group>";
+		};
+		A548D480182554710074D472 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				A548D479182554490074D472 /* UIViewHelper.h */,
+				A548D47A182554490074D472 /* UIViewHelper.m */,
+			);
+			name = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,10 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A548D46A18254ACE0074D472 /* UIViewHelper.m in Sources */,
-				A548D46618254A530074D472 /* NSTimer+Blocks.m in Sources */,
-				A548D441182549DD0074D472 /* main.m in Sources */,
-				A548D46D18254D9C0074D472 /* UIAlertView+Extend.m in Sources */,
+				A548D47B182554490074D472 /* NSTimer+Blocks.m in Sources */,
+				A548D470182553340074D472 /* main.m in Sources */,
+				A548D4731825533F0074D472 /* AppDelegate.m in Sources */,
+				A548D47D182554490074D472 /* UIViewHelper.m in Sources */,
+				A548D47C182554490074D472 /* UIAlertView+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = Classes;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -384,6 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = Classes;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
