@@ -1,4 +1,4 @@
-Collect some helpers for ios development, some from the web and some from my working. More to be continue, you are welcome to join.
+Collect some helpers for ios development, some from the web and some from my working. More to be continued, you are welcome to join.
 
 #Install
 	
