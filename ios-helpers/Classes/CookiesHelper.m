@@ -10,21 +10,19 @@
 
 @implementation CookiesHelper
 
-static NSString *cookiesIdentity = @"eleven-huang#cookies#helper";
-
 + (void)storeCookiesWithURL: (NSString *)url_string
 {
     
     NSArray* allCookies = [[NSHTTPCookieStorage sharedHTTPCookieStorage] cookiesForURL:[NSURL URLWithString:url_string]];
     NSData *cookiesData = [NSKeyedArchiver archivedDataWithRootObject:allCookies];
     
-    [[NSUserDefaults standardUserDefaults] setObject:cookiesData forKey:[NSString stringWithFormat:@"%@%@", url_string, cookiesIdentity]];
+    [[NSUserDefaults standardUserDefaults] setObject:cookiesData forKey:[self cookiesStoreKeyWithURL:url_string]];
 }
 
 + (void)loadCookiesWithURL: (NSString *)url_string
 {
     
-    NSData *cookiesData = [[NSUserDefaults standardUserDefaults] objectForKey:[NSString stringWithFormat:@"%@%@", url_string, cookiesIdentity]];
+    NSData *cookiesData = [[NSUserDefaults standardUserDefaults] objectForKey:[self cookiesStoreKeyWithURL:url_string]];
     NSArray *cookies = [NSKeyedUnarchiver unarchiveObjectWithData:cookiesData];
     
     [[NSHTTPCookieStorage sharedHTTPCookieStorage] setCookies:cookies forURL:[NSURL URLWithString:url_string] mainDocumentURL:nil];
@@ -33,7 +31,13 @@ static NSString *cookiesIdentity = @"eleven-huang#cookies#helper";
 + (void)removeCookiesWithURL: (NSString *)url_string
 {
     
-    [[NSUserDefaults standardUserDefaults] removeObjectForKey:[NSString stringWithFormat:@"%@%@", url_string, cookiesIdentity]];
+    [[NSUserDefaults standardUserDefaults] removeObjectForKey:[self cookiesStoreKeyWithURL:url_string]];
+    
+}
+
++ (NSString *)cookiesStoreKeyWithURL: (NSString *)url_string
+{
+    return [NSString stringWithFormat:@"%@#eleven-huang#cookies#helper", url_string];
 }
 
 @end
