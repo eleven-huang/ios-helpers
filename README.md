@@ -12,28 +12,41 @@ More to be continued. And of course, you are very welcome to join.
 	//etc
 
 #Helpers
+##CookiesHelper
+1. persist cookies after app exit
+
+		+ (void)storeCookiesWithURL: (NSString *)url_string;
+		
+		+ (void)loadCookiesWithURL: (NSString *)url_string;
+		
+		+ (void)removeCookiesWithURL: (NSString *)url_string;
+
+
 ##UIViewHelper
-zoom in and zoom out a view
+1. zoom in and zoom out a view
 	
 		
-	+ (void)ZoominView: (UIView *)aView withFinishBlock: (void (^)())block;
-	+ (void)ZoomoutView: (UIView *)aView withFinishBlock: (void (^)())block;
+		+ (void)ZoominView: (UIView *)aView withFinishBlock: (void (^)())block;
+		
+		+ (void)ZoomoutView: (UIView *)aView withFinishBlock: (void (^)())block;
 	
 ##NSTimer+Blocks
-Add blocks for timer
+1. Add blocks for timer
 
 		
-	+(id)scheduledTimerWithTimeInterval:(NSTimeInterval)inTimeInterval block:(void (^)())inBlock repeats:(BOOL)inRepeats;
+		+(id)scheduledTimerWithTimeInterval:(NSTimeInterval)inTimeInterval block:(void (^)())inBlock repeats:(BOOL)inRepeats;
 	
-	+(id)timerWithTimeInterval:(NSTimeInterval)inTimeInterval block:(void (^)())inBlock repeats:(BOOL)inRepeats;
+		+(id)timerWithTimeInterval:(NSTimeInterval)inTimeInterval block:(void (^)())inBlock repeats:(BOOL)inRepeats;
 	
 	
 ##UIAlertView+Extend
-You can disable or enable a button in UIAlertView
-
+1. Disable or enable a button in UIAlertView. (Not working in ios7)
 	
-	- (void)disableButtonWithTitle: (NSString *)title;
-	- (void)enableButtonWithTitle: (NSString *)title;
+	
+	
+		- (void)disableButtonWithTitle: (NSString *)title;
+		
+		- (void)enableButtonWithTitle: (NSString *)title;
 	
 	
 	
