@@ -35,6 +35,19 @@
     
 }
 
++ (NSArray *)cookiesWithURL:(NSString *)url_string
+{
+    NSData *cookiesData = [[NSUserDefaults standardUserDefaults] objectForKey:[self cookiesStoreKeyWithURL:url_string]];
+    
+    if (cookiesData) {
+        NSArray *cookies = [NSKeyedUnarchiver unarchiveObjectWithData:cookiesData];
+        
+        return cookies;
+    }
+    
+    return nil;
+}
+
 + (NSString *)cookiesStoreKeyWithURL: (NSString *)url_string
 {
     return [NSString stringWithFormat:@"%@#eleven-huang#cookies#helper", url_string];

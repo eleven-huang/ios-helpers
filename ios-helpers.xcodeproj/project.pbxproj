@@ -58,7 +58,6 @@
 		A548D478182554490074D472 /* UIAlertView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Extend.m"; sourceTree = "<group>"; };
 		A548D479182554490074D472 /* UIViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewHelper.h; sourceTree = "<group>"; };
 		A548D47A182554490074D472 /* UIViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewHelper.m; sourceTree = "<group>"; };
-		A548D48118255B6D0074D472 /* IOSHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSHelpers.h; sourceTree = "<group>"; };
 		A5C612A91828BAAC0042C30D /* CookiesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookiesHelper.h; sourceTree = "<group>"; };
 		A5C612AA1828BAAC0042C30D /* CookiesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookiesHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,7 +89,7 @@
 		A548D428182549DD0074D472 = {
 			isa = PBXGroup;
 			children = (
-				A548D43A182549DD0074D472 /* ios-helpers */,
+				A548D43A182549DD0074D472 /* Classes */,
 				A548D453182549DE0074D472 /* ios-helpersTests */,
 				A548D433182549DD0074D472 /* Frameworks */,
 				A548D432182549DD0074D472 /* Products */,
@@ -117,15 +116,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A548D43A182549DD0074D472 /* ios-helpers */ = {
+		A548D43A182549DD0074D472 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A548D474182554490074D472 /* Classes */,
+				A548D474182554490074D472 /* IOSHelpers */,
 				A548D4711825533F0074D472 /* AppDelegate.h */,
 				A548D4721825533F0074D472 /* AppDelegate.m */,
 				A548D446182549DD0074D472 /* Images.xcassets */,
 				A548D43B182549DD0074D472 /* Supporting Files */,
 			);
+			name = Classes;
 			path = "ios-helpers";
 			sourceTree = "<group>";
 		};
@@ -158,15 +158,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A548D474182554490074D472 /* Classes */ = {
+		A548D474182554490074D472 /* IOSHelpers */ = {
 			isa = PBXGroup;
 			children = (
 				A5C612A81828BA970042C30D /* Cookies */,
 				A548D480182554710074D472 /* UIView */,
 				A548D47F182554630074D472 /* UIAlertView */,
 				A548D47E182554500074D472 /* NSTimer */,
-				A548D48118255B6D0074D472 /* IOSHelpers.h */,
 			);
+			name = IOSHelpers;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -381,7 +381,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = Classes;
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -415,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = Classes;
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -429,6 +429,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-helpers/ios-helpers-Prefix.pch";
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "";
 				INFOPLIST_FILE = "ios-helpers/ios-helpers-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -442,6 +443,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-helpers/ios-helpers-Prefix.pch";
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "";
 				INFOPLIST_FILE = "ios-helpers/ios-helpers-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

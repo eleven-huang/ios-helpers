@@ -11,6 +11,7 @@
 @interface CookiesHelper : NSObject
 
 + (void)storeCookiesWithURL: (NSString *)url_string;
++ (NSArray *)cookiesWithURL: (NSString *)url_string;
 + (void)loadCookiesWithURL: (NSString *)url_string;
 + (void)removeCookiesWithURL: (NSString *)url_string;
 

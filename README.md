@@ -17,6 +17,8 @@ More to be continued. And of course, you are very welcome to join.
 
 		+ (void)storeCookiesWithURL: (NSString *)url_string;
 		
+		+ (NSArray *)cookiesWithURL: (NSString *)url_string;
+		
 		+ (void)loadCookiesWithURL: (NSString *)url_string;
 		
 		+ (void)removeCookiesWithURL: (NSString *)url_string;
