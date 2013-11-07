@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A52D600A182B4BDF00BA1434 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D6009182B4BDF00BA1434 /* UIImage+Additions.m */; };
 		A548D435182549DD0074D472 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548D434182549DD0074D472 /* Foundation.framework */; };
 		A548D437182549DD0074D472 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548D436182549DD0074D472 /* CoreGraphics.framework */; };
 		A548D439182549DD0074D472 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548D438182549DD0074D472 /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A52D6008182B4BDF00BA1434 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Additions.h"; path = "Classes/UIImage+Additions.h"; sourceTree = "<group>"; };
+		A52D6009182B4BDF00BA1434 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Additions.m"; path = "Classes/UIImage+Additions.m"; sourceTree = "<group>"; };
 		A548D431182549DD0074D472 /* ios-helpers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-helpers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A548D434182549DD0074D472 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A548D436182549DD0074D472 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -86,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A52D600B182B4BEA00BA1434 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				A52D6008182B4BDF00BA1434 /* UIImage+Additions.h */,
+				A52D6009182B4BDF00BA1434 /* UIImage+Additions.m */,
+			);
+			name = UIImage;
+			sourceTree = "<group>";
+		};
 		A548D428182549DD0074D472 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +131,7 @@
 		A548D43A182549DD0074D472 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A52D600B182B4BEA00BA1434 /* UIImage */,
 				A548D474182554490074D472 /* IOSHelpers */,
 				A548D4711825533F0074D472 /* AppDelegate.h */,
 				A548D4721825533F0074D472 /* AppDelegate.m */,
@@ -307,6 +320,7 @@
 				A548D4731825533F0074D472 /* AppDelegate.m in Sources */,
 				A548D47D182554490074D472 /* UIViewHelper.m in Sources */,
 				A548D47C182554490074D472 /* UIAlertView+Extend.m in Sources */,
+				A52D600A182B4BDF00BA1434 /* UIImage+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

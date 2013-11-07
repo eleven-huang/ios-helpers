@@ -8,10 +8,16 @@ More to be continued. And of course, you are very welcome to join.
 
 #Import
 	
-	#import "UIViewHelper"
+	#import "UIViewHelper.h"
 	//etc
 
 #Helpers
+##UIImage+Additions
+1. burn tint color to image
+
+		
+		- (UIImage *)imageWithTintColor: (UIColor *)color;
+		
 ##CookiesHelper
 1. persist cookies after app exit
 
