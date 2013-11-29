@@ -1,6 +1,6 @@
 Collect some helpers for ios development, for this we can easy to reuse it. Some from the web and some from my working. 
 
-More to be continued. And of course, you are very welcome to join.
+More to be continued, and of course, you are very welcome to join.
 
 #Install
 	
@@ -48,7 +48,7 @@ More to be continued. And of course, you are very welcome to join.
 	
 	
 ##UIAlertView+Extend
-1. Disable or enable a button in UIAlertView. (Not working in ios7)
+1. Disable or enable a button in UIAlertView. (not working on ios7)
 	
 	
 	
