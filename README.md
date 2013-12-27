@@ -1,4 +1,4 @@
-Collect some helpers for ios development, for this we can easy to reuse it. Some from the web and some from my working. 
+Collect some helpers for ios development, for this we can easy to reuse. Some from the web and some from my working. 
 
 More to be continued, and of course, you are very welcome to join.
 
@@ -12,6 +12,11 @@ More to be continued, and of course, you are very welcome to join.
 	//etc
 
 #Helpers
+##UIView+Extend
+1. remove all subviews
+		
+		- (void)removeAllSubviews;
+
 ##UIImage+Additions
 1. burn tint color to image
 

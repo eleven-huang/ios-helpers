@@ -24,6 +24,7 @@
 		A548D47C182554490074D472 /* UIAlertView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = A548D478182554490074D472 /* UIAlertView+Extend.m */; };
 		A548D47D182554490074D472 /* UIViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A548D47A182554490074D472 /* UIViewHelper.m */; };
 		A5C612AB1828BAAC0042C30D /* CookiesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C612AA1828BAAC0042C30D /* CookiesHelper.m */; };
+		A5F375EA186D63F60048EDE8 /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F375E9186D63F60048EDE8 /* UIView+Extend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		A548D47A182554490074D472 /* UIViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewHelper.m; sourceTree = "<group>"; };
 		A5C612A91828BAAC0042C30D /* CookiesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookiesHelper.h; sourceTree = "<group>"; };
 		A5C612AA1828BAAC0042C30D /* CookiesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookiesHelper.m; sourceTree = "<group>"; };
+		A5F375E8186D63F60048EDE8 /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
+		A5F375E9186D63F60048EDE8 /* UIView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +209,8 @@
 			children = (
 				A548D479182554490074D472 /* UIViewHelper.h */,
 				A548D47A182554490074D472 /* UIViewHelper.m */,
+				A5F375E8186D63F60048EDE8 /* UIView+Extend.h */,
+				A5F375E9186D63F60048EDE8 /* UIView+Extend.m */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -320,6 +325,7 @@
 				A548D4731825533F0074D472 /* AppDelegate.m in Sources */,
 				A548D47D182554490074D472 /* UIViewHelper.m in Sources */,
 				A548D47C182554490074D472 /* UIAlertView+Extend.m in Sources */,
+				A5F375EA186D63F60048EDE8 /* UIView+Extend.m in Sources */,
 				A52D600A182B4BDF00BA1434 /* UIImage+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
