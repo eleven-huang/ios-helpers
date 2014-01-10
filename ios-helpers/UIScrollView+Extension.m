@@ -1,14 +1,14 @@
 //
-//  UIScrollView+DeliveryEvent.m
+//  UIScrollView+Extension.m
 //  ios-helpers
 //
 //  Created by huang eleven on 1/10/14.
 //  Copyright (c) 2014 yijun huang. All rights reserved.
 //
 
-#import "UIScrollView+DeliveryEvent.h"
+#import "UIScrollView+Extension.h"
 
-@implementation UIScrollView (DeliveryEvent)
+@implementation UIScrollView (Extension)
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {

@@ -1,5 +1,5 @@
 //
-//  UIScrollView+DeliveryEvent.h
+//  UIScrollView+Extension.h
 //  ios-helpers
 //
 //  Created by huang eleven on 1/10/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIScrollView (DeliveryEvent)
+@interface UIScrollView (Extension)
 
 @end
