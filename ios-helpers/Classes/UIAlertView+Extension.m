@@ -1,14 +1,14 @@
 //
-//  UIAlertView+Extend.m
+//  UIAlertView+Extension.m
 //  ios-helpers
 //
-//  Created by huang eleven on 11/2/13.
-//  Copyright (c) 2013 yijun huang. All rights reserved.
+//  Created by huang eleven on 1/10/14.
+//  Copyright (c) 2014 yijun huang. All rights reserved.
 //
 
-#import "UIAlertView+Extend.h"
+#import "UIAlertView+Extension.h"
 
-@implementation UIAlertView (Extend)
+@implementation UIAlertView (Extension)
 
 - (void)disableButtonWithTitle: (NSString *)title
 {

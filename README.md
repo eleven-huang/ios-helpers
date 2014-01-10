@@ -26,7 +26,7 @@ I know that apple does not advocate override method in category, but it works.
 		    	[super touchesEnded: touches withEvent: event];
 		 }
 
-##UIView+Extend
+##UIView+Extension
 1. remove all subviews
 		
 		- (void)removeAllSubviews;
@@ -66,7 +66,7 @@ I know that apple does not advocate override method in category, but it works.
 		+(id)timerWithTimeInterval:(NSTimeInterval)inTimeInterval block:(void (^)())inBlock repeats:(BOOL)inRepeats;
 	
 	
-##UIAlertView+Extend
+##UIAlertView+Extension
 1. Disable or enable a button in UIAlertView. (not working on ios7)
 	
 	
