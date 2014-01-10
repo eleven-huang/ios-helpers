@@ -12,6 +12,20 @@ More to be continued, and of course, you are very welcome to join.
 	//etc
 
 #Helpers
+##UIScrollView+DevliveryEvent
+UIScrollView prevents all events by default, except Panning. You can add other events to scroll view now, except Panning. 
+
+I know that apple does not advocate override method in category, but it works.
+
+
+		- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+		{
+		    if (!self.dragging)
+        		[self.nextResponder touchesEnded: touches withEvent:event];
+		    else
+		    	[super touchesEnded: touches withEvent: event];
+		 }
+
 ##UIView+Extend
 1. remove all subviews
 		

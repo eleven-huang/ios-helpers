@@ -24,6 +24,7 @@
 		A548D47C182554490074D472 /* UIAlertView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = A548D478182554490074D472 /* UIAlertView+Extend.m */; };
 		A548D47D182554490074D472 /* UIViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A548D47A182554490074D472 /* UIViewHelper.m */; };
 		A5C612AB1828BAAC0042C30D /* CookiesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C612AA1828BAAC0042C30D /* CookiesHelper.m */; };
+		A5F0EFFA187FD985004F75BD /* UIScrollView+DeliveryEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0EFF9187FD985004F75BD /* UIScrollView+DeliveryEvent.m */; };
 		A5F375EA186D63F60048EDE8 /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F375E9186D63F60048EDE8 /* UIView+Extend.m */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,8 @@
 		A548D47A182554490074D472 /* UIViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewHelper.m; sourceTree = "<group>"; };
 		A5C612A91828BAAC0042C30D /* CookiesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookiesHelper.h; sourceTree = "<group>"; };
 		A5C612AA1828BAAC0042C30D /* CookiesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookiesHelper.m; sourceTree = "<group>"; };
+		A5F0EFF8187FD985004F75BD /* UIScrollView+DeliveryEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+DeliveryEvent.h"; sourceTree = "<group>"; };
+		A5F0EFF9187FD985004F75BD /* UIScrollView+DeliveryEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+DeliveryEvent.m"; sourceTree = "<group>"; };
 		A5F375E8186D63F60048EDE8 /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
 		A5F375E9186D63F60048EDE8 /* UIView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +137,8 @@
 		A548D43A182549DD0074D472 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A5F0EFF4187FD3DF004F75BD /* UIScrollView */,
+				A5F375EF186D6A790048EDE8 /* Database */,
 				A52D600B182B4BEA00BA1434 /* UIImage */,
 				A548D474182554490074D472 /* IOSHelpers */,
 				A548D4711825533F0074D472 /* AppDelegate.h */,
@@ -222,6 +227,22 @@
 				A5C612AA1828BAAC0042C30D /* CookiesHelper.m */,
 			);
 			name = Cookies;
+			sourceTree = "<group>";
+		};
+		A5F0EFF4187FD3DF004F75BD /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0EFF8187FD985004F75BD /* UIScrollView+DeliveryEvent.h */,
+				A5F0EFF9187FD985004F75BD /* UIScrollView+DeliveryEvent.m */,
+			);
+			name = UIScrollView;
+			sourceTree = "<group>";
+		};
+		A5F375EF186D6A790048EDE8 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F0EFFA187FD985004F75BD /* UIScrollView+DeliveryEvent.m in Sources */,
 				A548D47B182554490074D472 /* NSTimer+Blocks.m in Sources */,
 				A5C612AB1828BAAC0042C30D /* CookiesHelper.m in Sources */,
 				A548D470182553340074D472 /* main.m in Sources */,
