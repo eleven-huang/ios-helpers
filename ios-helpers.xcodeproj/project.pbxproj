@@ -25,7 +25,6 @@
 		A5C612AB1828BAAC0042C30D /* CookiesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C612AA1828BAAC0042C30D /* CookiesHelper.m */; };
 		A5F0F000187FDDC2004F75BD /* UIAlertView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0EFFF187FDDC2004F75BD /* UIAlertView+Extension.m */; };
 		A5F0F003187FDDEF004F75BD /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0F002187FDDEF004F75BD /* UIView+Extension.m */; };
-		A5F0F007187FE13E004F75BD /* UIScrollView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0F006187FE13E004F75BD /* UIScrollView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +66,6 @@
 		A5F0EFFF187FDDC2004F75BD /* UIAlertView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Extension.m"; sourceTree = "<group>"; };
 		A5F0F001187FDDEF004F75BD /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		A5F0F002187FDDEF004F75BD /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		A5F0F005187FE13E004F75BD /* UIScrollView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Extension.h"; sourceTree = "<group>"; };
-		A5F0F006187FE13E004F75BD /* UIScrollView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +134,6 @@
 		A548D43A182549DD0074D472 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A5F0F004187FE127004F75BD /* UIScrollView */,
 				A5F375EF186D6A790048EDE8 /* Database */,
 				A52D600B182B4BEA00BA1434 /* UIImage */,
 				A548D474182554490074D472 /* IOSHelpers */,
@@ -227,15 +223,6 @@
 				A5C612AA1828BAAC0042C30D /* CookiesHelper.m */,
 			);
 			name = Cookies;
-			sourceTree = "<group>";
-		};
-		A5F0F004187FE127004F75BD /* UIScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				A5F0F005187FE13E004F75BD /* UIScrollView+Extension.h */,
-				A5F0F006187FE13E004F75BD /* UIScrollView+Extension.m */,
-			);
-			name = UIScrollView;
 			sourceTree = "<group>";
 		};
 		A5F375EF186D6A790048EDE8 /* Database */ = {
@@ -343,7 +330,6 @@
 				A5F0F003187FDDEF004F75BD /* UIView+Extension.m in Sources */,
 				A548D47B182554490074D472 /* NSTimer+Blocks.m in Sources */,
 				A5C612AB1828BAAC0042C30D /* CookiesHelper.m in Sources */,
-				A5F0F007187FE13E004F75BD /* UIScrollView+Extension.m in Sources */,
 				A548D470182553340074D472 /* main.m in Sources */,
 				A548D4731825533F0074D472 /* AppDelegate.m in Sources */,
 				A548D47D182554490074D472 /* UIViewHelper.m in Sources */,
