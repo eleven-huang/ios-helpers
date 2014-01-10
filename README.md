@@ -13,7 +13,7 @@ More to be continued, and of course, you are very welcome to join.
 
 #Helpers
 ##UIScrollView+DevliveryEvent
-UIScrollView prevents all events by default, except Panning. You can add other events to scroll view now, except Panning. 
+UIScrollView prevents all events by defaul except panning. You can add other events to scroll view now except panning. 
 
 I know that apple does not advocate override method in category, but it works.
 
