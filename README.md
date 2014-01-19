@@ -22,7 +22,7 @@ More to be continued, and of course, you are very welcome to join.
 		+ (NSString *)fromFloat: (float)value
 		+ (NSString *)fromInteger: (int)value	
 
-#UIScrollView+DeliveryAllEvents
+##UIScrollView+DeliveryAllEvents
 Delivery all events
 
 		- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
