@@ -12,7 +12,17 @@ More to be continued, and of course, you are very welcome to join.
 	//etc
 
 #Helpers
-##UIScrollView+DeliveryAllEvents
+##NSString+Extension
+1. md5 string
+		
+		- (NSString *)MD5String
+
+2. string from number
+	
+		+ (NSString *)fromFloat: (float)value
+		+ (NSString *)fromInteger: (int)value	
+
+#UIScrollView+DeliveryAllEvents
 Delivery all events
 
 		- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event

@@ -23,6 +23,7 @@
 		A548D47B182554490074D472 /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = A548D476182554490074D472 /* NSTimer+Blocks.m */; };
 		A548D47D182554490074D472 /* UIViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A548D47A182554490074D472 /* UIViewHelper.m */; };
 		A5A00E52188BD8C60089F8AE /* UIScrollView+DeliveryAllEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A00E51188BD8C60089F8AE /* UIScrollView+DeliveryAllEvents.m */; };
+		A5A00E59188BDBF70089F8AE /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A00E58188BDBF70089F8AE /* NSString+Extension.m */; };
 		A5C612AB1828BAAC0042C30D /* CookiesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C612AA1828BAAC0042C30D /* CookiesHelper.m */; };
 		A5F0F000187FDDC2004F75BD /* UIAlertView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0EFFF187FDDC2004F75BD /* UIAlertView+Extension.m */; };
 		A5F0F003187FDDEF004F75BD /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0F002187FDDEF004F75BD /* UIView+Extension.m */; };
@@ -64,6 +65,8 @@
 		A548D47A182554490074D472 /* UIViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewHelper.m; sourceTree = "<group>"; };
 		A5A00E50188BD8C60089F8AE /* UIScrollView+DeliveryAllEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+DeliveryAllEvents.h"; path = "Classes/UIScrollView+DeliveryAllEvents.h"; sourceTree = "<group>"; };
 		A5A00E51188BD8C60089F8AE /* UIScrollView+DeliveryAllEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+DeliveryAllEvents.m"; path = "Classes/UIScrollView+DeliveryAllEvents.m"; sourceTree = "<group>"; };
+		A5A00E57188BDBF70089F8AE /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Extension.h"; path = "Classes/NSString+Extension.h"; sourceTree = "<group>"; };
+		A5A00E58188BDBF70089F8AE /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extension.m"; path = "Classes/NSString+Extension.m"; sourceTree = "<group>"; };
 		A5C612A91828BAAC0042C30D /* CookiesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookiesHelper.h; sourceTree = "<group>"; };
 		A5C612AA1828BAAC0042C30D /* CookiesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookiesHelper.m; sourceTree = "<group>"; };
 		A5F0EFFE187FDDC1004F75BD /* UIAlertView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Extension.h"; sourceTree = "<group>"; };
@@ -140,6 +143,7 @@
 		A548D43A182549DD0074D472 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A5A00E53188BDAF30089F8AE /* NSString */,
 				A5F0F008187FEC7E004F75BD /* UIScrollView */,
 				A5F375EF186D6A790048EDE8 /* Database */,
 				A52D600B182B4BEA00BA1434 /* UIImage */,
@@ -221,6 +225,15 @@
 				A5F0F002187FDDEF004F75BD /* UIView+Extension.m */,
 			);
 			name = UIView;
+			sourceTree = "<group>";
+		};
+		A5A00E53188BDAF30089F8AE /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				A5A00E57188BDBF70089F8AE /* NSString+Extension.h */,
+				A5A00E58188BDBF70089F8AE /* NSString+Extension.m */,
+			);
+			name = NSString;
 			sourceTree = "<group>";
 		};
 		A5C612A81828BA970042C30D /* Cookies */ = {
@@ -350,6 +363,7 @@
 				A5C612AB1828BAAC0042C30D /* CookiesHelper.m in Sources */,
 				A548D470182553340074D472 /* main.m in Sources */,
 				A548D4731825533F0074D472 /* AppDelegate.m in Sources */,
+				A5A00E59188BDBF70089F8AE /* NSString+Extension.m in Sources */,
 				A5F0F00E187FECF7004F75BD /* UIScrollView+DeliveryEvent.m in Sources */,
 				A5A00E52188BD8C60089F8AE /* UIScrollView+DeliveryAllEvents.m in Sources */,
 				A548D47D182554490074D472 /* UIViewHelper.m in Sources */,
