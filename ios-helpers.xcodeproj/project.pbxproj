@@ -22,6 +22,7 @@
 		A548D4731825533F0074D472 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A548D4721825533F0074D472 /* AppDelegate.m */; };
 		A548D47B182554490074D472 /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = A548D476182554490074D472 /* NSTimer+Blocks.m */; };
 		A548D47D182554490074D472 /* UIViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A548D47A182554490074D472 /* UIViewHelper.m */; };
+		A5A00E52188BD8C60089F8AE /* UIScrollView+DeliveryAllEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A00E51188BD8C60089F8AE /* UIScrollView+DeliveryAllEvents.m */; };
 		A5C612AB1828BAAC0042C30D /* CookiesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C612AA1828BAAC0042C30D /* CookiesHelper.m */; };
 		A5F0F000187FDDC2004F75BD /* UIAlertView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0EFFF187FDDC2004F75BD /* UIAlertView+Extension.m */; };
 		A5F0F003187FDDEF004F75BD /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0F002187FDDEF004F75BD /* UIView+Extension.m */; };
@@ -61,6 +62,8 @@
 		A548D476182554490074D472 /* NSTimer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blocks.m"; sourceTree = "<group>"; };
 		A548D479182554490074D472 /* UIViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewHelper.h; sourceTree = "<group>"; };
 		A548D47A182554490074D472 /* UIViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewHelper.m; sourceTree = "<group>"; };
+		A5A00E50188BD8C60089F8AE /* UIScrollView+DeliveryAllEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+DeliveryAllEvents.h"; path = "Classes/UIScrollView+DeliveryAllEvents.h"; sourceTree = "<group>"; };
+		A5A00E51188BD8C60089F8AE /* UIScrollView+DeliveryAllEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+DeliveryAllEvents.m"; path = "Classes/UIScrollView+DeliveryAllEvents.m"; sourceTree = "<group>"; };
 		A5C612A91828BAAC0042C30D /* CookiesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookiesHelper.h; sourceTree = "<group>"; };
 		A5C612AA1828BAAC0042C30D /* CookiesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookiesHelper.m; sourceTree = "<group>"; };
 		A5F0EFFE187FDDC1004F75BD /* UIAlertView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Extension.h"; sourceTree = "<group>"; };
@@ -232,6 +235,8 @@
 		A5F0F008187FEC7E004F75BD /* UIScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				A5A00E50188BD8C60089F8AE /* UIScrollView+DeliveryAllEvents.h */,
+				A5A00E51188BD8C60089F8AE /* UIScrollView+DeliveryAllEvents.m */,
 				A5F0F00C187FECF7004F75BD /* UIScrollView+DeliveryEvent.h */,
 				A5F0F00D187FECF7004F75BD /* UIScrollView+DeliveryEvent.m */,
 			);
@@ -346,6 +351,7 @@
 				A548D470182553340074D472 /* main.m in Sources */,
 				A548D4731825533F0074D472 /* AppDelegate.m in Sources */,
 				A5F0F00E187FECF7004F75BD /* UIScrollView+DeliveryEvent.m in Sources */,
+				A5A00E52188BD8C60089F8AE /* UIScrollView+DeliveryAllEvents.m in Sources */,
 				A548D47D182554490074D472 /* UIViewHelper.m in Sources */,
 				A52D600A182B4BDF00BA1434 /* UIImage+Additions.m in Sources */,
 				A5F0F000187FDDC2004F75BD /* UIAlertView+Extension.m in Sources */,
