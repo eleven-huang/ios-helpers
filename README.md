@@ -12,7 +12,15 @@ More to be continued, and of course, you are very welcome to join.
 	//etc
 
 #Helpers
-##UIScrollView+DevliveryEvent
+##UIScrollView+DeliveryAllEvents
+Delivery all events
+
+		- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+		{
+		    [self.nextResponder touchesEnded:touches withEvent:event];
+		}
+
+##UIScrollView+DeliveryEvent
 UIScrollView prevents all events by defaul, except panning. You can add other events to scroll view now, except panning. 
 
 I know that apple does not advocate override method in category, but it works.
