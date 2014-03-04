@@ -1,4 +1,4 @@
-Collect some helpers for ios development, for this we can easy to reuse. Some from web and some from my working. 
+Collect some helpers for ios development.
 
 #Install
 	
