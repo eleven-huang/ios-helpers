@@ -1,6 +1,4 @@
-Collect some helpers for ios development, for this we can easy to reuse. Some from the web and some from my working. 
-
-More to be continued, and of course, you are very welcome to join.
+Collect some helpers for ios development, for this we can easy to reuse. Some from web and some from my working. 
 
 #Install
 	
@@ -97,6 +95,8 @@ I know that apple does not advocate override method in category, but it works.
 		
 
 #License
+
+The MIT License (MIT)
 
 Copyright (c) 2014 Yijun Huang (https://github.com/eleven-huang).
 
