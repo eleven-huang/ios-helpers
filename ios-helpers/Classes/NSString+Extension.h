@@ -11,6 +11,9 @@
 @interface NSString (Extension)
 
 - (NSString *)MD5String;
+- (BOOL)empty;
+
+
 + (NSString *)fromFloat: (float)value;
 + (NSString *)fromInteger: (int)value;
 

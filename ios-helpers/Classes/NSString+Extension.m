@@ -26,6 +26,15 @@
             ];
 }
 
+- (BOOL)empty
+{
+    if (!self || [self isEqualToString:@""]) {
+        return true;
+    }
+    
+    return false;
+}
+
 + (NSString *)fromFloat: (float)value
 {
     return [NSString stringWithFormat:@"%f", value];
