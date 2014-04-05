@@ -19,6 +19,9 @@ Collect some helpers for ios development.
 	
 		+ (NSString *)fromFloat: (float)value
 		+ (NSString *)fromInteger: (int)value	
+3. emtpy?
+	
+		- (BOOL)empty
 
 ##UIScrollView+DeliveryAllEvents
 Delivery all events
