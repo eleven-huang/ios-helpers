@@ -49,6 +49,7 @@ I know that apple does not advocate override method in category, but it works.
 1. remove all subviews
 		
 		- (void)removeAllSubviews;
+2. set width, height, x and y
 		
 		- (void)setWidth: (CGFloat)width;
 		- (void)setHeight: (CGFloat)heigth;
