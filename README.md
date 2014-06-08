@@ -50,6 +50,11 @@ I know that apple does not advocate override method in category, but it works.
 		
 		- (void)removeAllSubviews;
 		
+		- (void)setWidth: (CGFloat)width;
+		- (void)setHeight: (CGFloat)heigth;
+		- (void)setOriginY: (CGFloat)y;
+		- (void)setOriginX: (CGFloat)x;
+		
 ##UIImage+ImageEffects
 
 it comes from apple, you can add effects to image like ios7.

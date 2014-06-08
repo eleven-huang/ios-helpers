@@ -12,4 +12,9 @@
 
 - (void)removeAllSubviews;
 
+- (void)setWidth: (CGFloat)width;
+- (void)setHeight: (CGFloat)heigth;
+- (void)setOriginY: (CGFloat)y;
+- (void)setOriginX: (CGFloat)x;
+
 @end

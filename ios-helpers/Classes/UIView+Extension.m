@@ -17,4 +17,32 @@
     }
 }
 
+- (void)setWidth: (CGFloat)width
+{
+    CGRect frame = self.frame;
+    frame.size.width = width;
+    self.frame = frame;
+}
+
+- (void)setHeight: (CGFloat)heigth
+{
+    CGRect frame = self.frame;
+    frame.size.height = heigth;
+    self.frame = frame;
+}
+
+- (void)setOriginY: (CGFloat)y
+{
+    CGRect frame = self.frame;
+    frame.origin.y = y;
+    self.frame = frame;
+}
+
+- (void)setOriginX: (CGFloat)x
+{
+    CGRect frame = self.frame;
+    frame.origin.x = x;
+    self.frame = frame;
+}
+
 @end
