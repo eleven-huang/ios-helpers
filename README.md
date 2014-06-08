@@ -49,6 +49,21 @@ I know that apple does not advocate override method in category, but it works.
 1. remove all subviews
 		
 		- (void)removeAllSubviews;
+		
+##UIImage+ImageEffects
+
+it come from apple, you can add effects to images like ios7.
+		
+		- (UIImage *)applyLightEffect;
+		- (UIImage *)applyExtraLightEffect;
+		- (UIImage *)applyDarkEffect;
+		- (UIImage *)applyTintEffectWithColor:(UIColor *)tintColor;
+
+		- (UIImage *)applyBlurWithRadius:(CGFloat)blurRadius tintColor:(UIColor *)tintColor saturationDeltaFactor:(CGFloat)saturationDeltaFactor maskImage:(UIImage *)maskImage;
+
+![image](ios-helpers/UIImage+Effects1.png)
+![image](ios-helpers/UIImage+Effects2.png)
+![image](ios-helpers/UIImage+Effects3.png)
 
 ##UIImage+Additions
 1. burn tint color to image
