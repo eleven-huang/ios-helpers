@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		A52D600A182B4BDF00BA1434 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D6009182B4BDF00BA1434 /* UIImage+Additions.m */; };
 		A5467F0E1944559100C5608F /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = A5467F0D1944559100C5608F /* UIImage+ImageEffects.m */; };
-		A5467F131944572F00C5608F /* UIImage+Effects1.png in Resources */ = {isa = PBXBuildFile; fileRef = A5467F101944572F00C5608F /* UIImage+Effects1.png */; };
-		A5467F141944572F00C5608F /* UIImage+Effects2.png in Resources */ = {isa = PBXBuildFile; fileRef = A5467F111944572F00C5608F /* UIImage+Effects2.png */; };
-		A5467F151944572F00C5608F /* UIImage+Effects3.png in Resources */ = {isa = PBXBuildFile; fileRef = A5467F121944572F00C5608F /* UIImage+Effects3.png */; };
+		A5467F191944594900C5608F /* UIImage+Effects1.png in Resources */ = {isa = PBXBuildFile; fileRef = A5467F161944594900C5608F /* UIImage+Effects1.png */; };
+		A5467F1A1944594900C5608F /* UIImage+Effects2.png in Resources */ = {isa = PBXBuildFile; fileRef = A5467F171944594900C5608F /* UIImage+Effects2.png */; };
+		A5467F1B1944594900C5608F /* UIImage+Effects3.png in Resources */ = {isa = PBXBuildFile; fileRef = A5467F181944594900C5608F /* UIImage+Effects3.png */; };
 		A548D435182549DD0074D472 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548D434182549DD0074D472 /* Foundation.framework */; };
 		A548D437182549DD0074D472 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548D436182549DD0074D472 /* CoreGraphics.framework */; };
 		A548D439182549DD0074D472 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548D438182549DD0074D472 /* UIKit.framework */; };
@@ -49,9 +49,9 @@
 		A52D6009182B4BDF00BA1434 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Additions.m"; path = "Classes/UIImage+Additions.m"; sourceTree = "<group>"; };
 		A5467F0C1944559100C5608F /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		A5467F0D1944559100C5608F /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
-		A5467F101944572F00C5608F /* UIImage+Effects1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIImage+Effects1.png"; sourceTree = "<group>"; };
-		A5467F111944572F00C5608F /* UIImage+Effects2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIImage+Effects2.png"; sourceTree = "<group>"; };
-		A5467F121944572F00C5608F /* UIImage+Effects3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIImage+Effects3.png"; sourceTree = "<group>"; };
+		A5467F161944594900C5608F /* UIImage+Effects1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIImage+Effects1.png"; sourceTree = "<group>"; };
+		A5467F171944594900C5608F /* UIImage+Effects2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIImage+Effects2.png"; sourceTree = "<group>"; };
+		A5467F181944594900C5608F /* UIImage+Effects3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIImage+Effects3.png"; sourceTree = "<group>"; };
 		A548D431182549DD0074D472 /* ios-helpers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-helpers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A548D434182549DD0074D472 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A548D436182549DD0074D472 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,9 +124,9 @@
 		A5467F0F194456EA00C5608F /* images */ = {
 			isa = PBXGroup;
 			children = (
-				A5467F101944572F00C5608F /* UIImage+Effects1.png */,
-				A5467F111944572F00C5608F /* UIImage+Effects2.png */,
-				A5467F121944572F00C5608F /* UIImage+Effects3.png */,
+				A5467F161944594900C5608F /* UIImage+Effects1.png */,
+				A5467F171944594900C5608F /* UIImage+Effects2.png */,
+				A5467F181944594900C5608F /* UIImage+Effects3.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -360,9 +360,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5467F131944572F00C5608F /* UIImage+Effects1.png in Resources */,
-				A5467F151944572F00C5608F /* UIImage+Effects3.png in Resources */,
-				A5467F141944572F00C5608F /* UIImage+Effects2.png in Resources */,
+				A5467F191944594900C5608F /* UIImage+Effects1.png in Resources */,
+				A5467F1B1944594900C5608F /* UIImage+Effects3.png in Resources */,
+				A5467F1A1944594900C5608F /* UIImage+Effects2.png in Resources */,
 				A548D43F182549DD0074D472 /* InfoPlist.strings in Resources */,
 				A548D447182549DD0074D472 /* Images.xcassets in Resources */,
 			);

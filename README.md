@@ -52,7 +52,7 @@ I know that apple does not advocate override method in category, but it works.
 		
 ##UIImage+ImageEffects
 
-it come from apple, you can add effects to images like ios7.
+it comes from apple, you can add effects to image like ios7.
 		
 		- (UIImage *)applyLightEffect;
 		- (UIImage *)applyExtraLightEffect;
