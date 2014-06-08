@@ -12,6 +12,7 @@
 		A5467F191944594900C5608F /* UIImage+Effects1.png in Resources */ = {isa = PBXBuildFile; fileRef = A5467F161944594900C5608F /* UIImage+Effects1.png */; };
 		A5467F1A1944594900C5608F /* UIImage+Effects2.png in Resources */ = {isa = PBXBuildFile; fileRef = A5467F171944594900C5608F /* UIImage+Effects2.png */; };
 		A5467F1B1944594900C5608F /* UIImage+Effects3.png in Resources */ = {isa = PBXBuildFile; fileRef = A5467F181944594900C5608F /* UIImage+Effects3.png */; };
+		A5467F1E19445BAA00C5608F /* UIBezierPath+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = A5467F1D19445BAA00C5608F /* UIBezierPath+Image.m */; };
 		A548D435182549DD0074D472 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548D434182549DD0074D472 /* Foundation.framework */; };
 		A548D437182549DD0074D472 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548D436182549DD0074D472 /* CoreGraphics.framework */; };
 		A548D439182549DD0074D472 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548D438182549DD0074D472 /* UIKit.framework */; };
@@ -52,6 +53,8 @@
 		A5467F161944594900C5608F /* UIImage+Effects1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIImage+Effects1.png"; sourceTree = "<group>"; };
 		A5467F171944594900C5608F /* UIImage+Effects2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIImage+Effects2.png"; sourceTree = "<group>"; };
 		A5467F181944594900C5608F /* UIImage+Effects3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIImage+Effects3.png"; sourceTree = "<group>"; };
+		A5467F1C19445BAA00C5608F /* UIBezierPath+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBezierPath+Image.h"; path = "Classes/UIBezierPath+Image.h"; sourceTree = "<group>"; };
+		A5467F1D19445BAA00C5608F /* UIBezierPath+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBezierPath+Image.m"; path = "Classes/UIBezierPath+Image.m"; sourceTree = "<group>"; };
 		A548D431182549DD0074D472 /* ios-helpers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-helpers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A548D434182549DD0074D472 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A548D436182549DD0074D472 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,7 @@
 				A52D6009182B4BDF00BA1434 /* UIImage+Additions.m */,
 			);
 			name = UIImage;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		A5467F0F194456EA00C5608F /* images */ = {
@@ -129,6 +133,17 @@
 				A5467F181944594900C5608F /* UIImage+Effects3.png */,
 			);
 			name = images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A5467F1F19445BB500C5608F /* UIBezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				A5467F1C19445BAA00C5608F /* UIBezierPath+Image.h */,
+				A5467F1D19445BAA00C5608F /* UIBezierPath+Image.m */,
+			);
+			name = UIBezierPath;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		A548D428182549DD0074D472 = {
@@ -164,11 +179,6 @@
 		A548D43A182549DD0074D472 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A5467F0F194456EA00C5608F /* images */,
-				A5A00E53188BDAF30089F8AE /* NSString */,
-				A5F0F008187FEC7E004F75BD /* UIScrollView */,
-				A5F375EF186D6A790048EDE8 /* Database */,
-				A52D600B182B4BEA00BA1434 /* UIImage */,
 				A548D474182554490074D472 /* IOSHelpers */,
 				A548D4711825533F0074D472 /* AppDelegate.h */,
 				A548D4721825533F0074D472 /* AppDelegate.m */,
@@ -211,6 +221,12 @@
 		A548D474182554490074D472 /* IOSHelpers */ = {
 			isa = PBXGroup;
 			children = (
+				A5467F1F19445BB500C5608F /* UIBezierPath */,
+				A5467F0F194456EA00C5608F /* images */,
+				A5A00E53188BDAF30089F8AE /* NSString */,
+				A5F0F008187FEC7E004F75BD /* UIScrollView */,
+				A5F375EF186D6A790048EDE8 /* Database */,
+				A52D600B182B4BEA00BA1434 /* UIImage */,
 				A5C612A81828BA970042C30D /* Cookies */,
 				A548D480182554710074D472 /* UIView */,
 				A548D47F182554630074D472 /* UIAlertView */,
@@ -256,6 +272,7 @@
 				A5A00E58188BDBF70089F8AE /* NSString+Extension.m */,
 			);
 			name = NSString;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		A5C612A81828BA970042C30D /* Cookies */ = {
@@ -276,6 +293,7 @@
 				A5F0F00D187FECF7004F75BD /* UIScrollView+DeliveryEvent.m */,
 			);
 			name = UIScrollView;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		A5F375EF186D6A790048EDE8 /* Database */ = {
@@ -283,6 +301,7 @@
 			children = (
 			);
 			name = Database;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5F0F003187FDDEF004F75BD /* UIView+Extension.m in Sources */,
+				A5467F1E19445BAA00C5608F /* UIBezierPath+Image.m in Sources */,
 				A548D47B182554490074D472 /* NSTimer+Blocks.m in Sources */,
 				A5C612AB1828BAAC0042C30D /* CookiesHelper.m in Sources */,
 				A548D470182553340074D472 /* main.m in Sources */,

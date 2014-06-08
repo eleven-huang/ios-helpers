@@ -10,6 +10,12 @@ Collect some helpers for ios development.
 	//etc
 
 #Helpers
+
+##UIBezierPath+Image
+1. You can create image from a bezier path
+		
+		- (UIImage *)imageWithStrokeColor: (UIColor *)stroke_color andFillColor: (UIColor *)fill_color;
+
 ##NSString+Extension
 1. md5 string
 		
